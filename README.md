@@ -1,5 +1,10 @@
 # Arduino ESP32 AWS IoT
-The Buildstorm platform streamlines the incorporation of AWS IoT core features onto ESP32 Hardware, covering everything from basic IoT functionalities to advanced features like OTA updates and provisioning. This creates a solid foundation for your next IoT project, giving you a three-month head start in product development.
+
+The Buildstorm platform simplifies the integration of AWS IoT core features onto ESP32 Hardware, spanning from basic IoT functionalities to advanced features like OTA updates and provisioning.
+
+The architecture is based on the core IDF APIs, complemented by a C++ wrapper tailored for application use, guaranteeing non-blocking operation of all APIs. Each user action, including HTTP requests, MQTT publishing, Shadow updates, and OTA, is logged as an event and seamlessly managed in the background. To maintain this seamless operation, the platform effectively runs a system task.
+
+This establishes a robust foundation for your upcoming IoT project.
 
 Supported features:
 1. MQTT pub/sub
@@ -37,6 +42,8 @@ Supported features:
 |-----------------|---------------|---------------|
 | ESP32           | Not Supported | Not Supported |
 | ESP32 S3        | Supported     | Supported     |
+
+While our Arduino IoT platform currently exclusively supports BLE and OTA solely on ESP32S3, these capabilities are accessible through the IDF (ESP-IDF) platform for all ESP32 SoCs. These functionalities will soon be integrated into Arduino. Until then, you can explore the IDF version of our platform [ESP32-idf AWS IoT Platform](https://github.com/BuildStormTechnologies/esp32_aws_iot).
 
 ---
 ## Arduino setting
