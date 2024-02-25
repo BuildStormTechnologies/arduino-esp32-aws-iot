@@ -43,7 +43,7 @@ Supported features:
 | ESP32           | Not Supported | Not Supported |
 | ESP32 S3        | Supported     | Supported     |
 
-While our Arduino IoT platform currently exclusively supports BLE and OTA solely on ESP32S3, these capabilities are accessible through the IDF (ESP-IDF) platform for all ESP32 SoCs. These functionalities will soon be integrated into Arduino. Until then, you can explore the IDF version of our platform [ESP32-idf AWS IoT Platform](https://github.com/BuildStormTechnologies/esp32_aws_iot).
+While our Arduino IoT platform currently supports BLE and OTA solely on ESP32S3, these capabilities are accessible on our ESP-IDF platform for all ESP32 SoCs. These functionalities will soon be integrated into Arduino. Until then, you can explore the IDF version of our platform [ESP32-idf AWS IoT Platform](https://github.com/BuildStormTechnologies/esp32_aws_iot).
 
 ---
 ## Arduino setting
