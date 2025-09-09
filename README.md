@@ -18,7 +18,7 @@ Supported features:
 
 ## Refrences
 1. [ESP32 Aws IoT Platform](https://buildstorm.com/solutions/esp32-on-aws-iot-platform/)
-2. [Mobile App: User Guide](https://buildstorm.com/blog/mobile-app-user-manual/)
+2. [Mobile App: User Guide](https://buildstorm.com/2024/01/25/aws-iot-mobile-app-user-manual/)
 
 
 ---
